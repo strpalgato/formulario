@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Postulación</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>Formulario de Postulación para Trabajo de Apoyo Ambiental en Chiloé</h1>
+    <form name="formulario" onsubmit="return validarFormulario()" method="post">
+        <label>RUT:</label>
+        <input type="text" name="rut" required><br><br>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required><br><br>
+        <label>Apellido Paterno:</label>
+        <input type="text" name="apellido_paterno" required><br><br>
+        <label>Apellido Materno:</label>
+        <input type="text" name="apellido_materno" required><br><br>
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" name ="fecha_nacimiento" required> <br><br>
+        <label>Edad:</label>
+        <input type="number" name="edad" min="18" max="35" required><br><br>
+        <label>Género:</label>
+        <select name="genero" required>
+            <option value="">Seleccione su género</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+        <label>Correo Electrónico:</label>
+        <input type="email" name="email" required><br><br>
+        <label>Celular:</label>
+        <input type="text" name="celular" required><br><br>
+        <label>Profesión:</label>
+        <input type="text" name="profesion" required><br><br>
+        <label>Motivación para Postular:</label>
+        <textarea name="motivacion" required></textarea><br><br>
+        <input type="submit" value="Enviar">
+        <button id="crear-carta" type="button">Crear Carta</button>
+        <textarea id="carta" rows="10" cols="50"></textarea>
+    </form>
+    <script src="JS/formulario.js"></script>
+</body>
+</html>

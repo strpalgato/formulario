@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(to bottom right, #257c29, #3c3c3c);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #0c98c7;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    width: auto;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #095f7e;
+}
+
+#crear-carta {
+    background-color: #0c98c7;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    width: auto;
+    border: none;
+  }
+  
+  #crear-carta:hover {
+    background-color: #095f7e;
+  }
+  
+
+textarea {
+    height: 150px;
+}
+
+.error {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
