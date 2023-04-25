@@ -11,8 +11,7 @@ La aplicación cuenta con las siguientes funcionalidades:
 
 Formulario de ingreso de datos: el usuario puede ingresar su nombre, apellidos, género, profesión y motivación para postular a un trabajo.
 Generación automática de la carta de presentación: a partir de los datos ingresados por el usuario, se genera automáticamente una carta de presentación personalizada.
-Previsualización de la carta de presentación: el usuario puede ver la carta de presentación generada antes de enviarla.
-Descarga de la carta de presentación: el usuario puede descargar la carta de presentación en formato de texto para enviarla por correo electrónico o imprimir.
+
 
 # Tecnologías utilizadas
 El proyecto utiliza las siguientes tecnologías:
@@ -28,4 +27,4 @@ La aplicación es una página web que se ejecuta en cualquier navegador web mode
 # Instalación y uso
 Para utilizar la aplicación, basta con abrir el archivo index.html en un navegador web. No se requiere ninguna instalación previa ni ningún servidor web.
 
-Una vez abierta la página, el usuario debe llenar el formulario con sus datos personales y de trabajo, y hacer clic en el botón "Generar carta". La carta de presentación se generará automáticamente y se mostrará en la pantalla. El usuario puede previsualizarla y descargarla en formato de texto.
+Una vez abierta la página, el usuario debe llenar el formulario con sus datos personales y de trabajo, y hacer clic en el botón "Generar carta". La carta de presentación se generará automáticamente y se mostrará en la pantalla.
